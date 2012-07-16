@@ -15,7 +15,7 @@
 		BE960B3015B3D1380049EB5C /* HFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE960B2F15B3D1380049EB5C /* HFAppDelegate.m */; };
 		BE960B3315B3D1380049EB5C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE960B3115B3D1380049EB5C /* MainStoryboard_iPhone.storyboard */; };
 		BE960B3615B3D1380049EB5C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE960B3415B3D1380049EB5C /* MainStoryboard_iPad.storyboard */; };
-		BE960B3915B3D1380049EB5C /* HFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE960B3815B3D1380049EB5C /* HFViewController.m */; };
+		BE960B4115B3D1C30049EB5C /* CrashingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE960B4015B3D1C30049EB5C /* CrashingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +23,16 @@
 		BE960B1F15B3D1380049EB5C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BE960B2115B3D1380049EB5C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BE960B2315B3D1380049EB5C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BE960B2715B3D1380049EB5C /* VoiceOverCrash-Info.plist */ = {isa = PBXFileReference; path = "VoiceOverCrash-Info.plist"; sourceTree = "<group>"; };
+		BE960B2715B3D1380049EB5C /* VoiceOverCrash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceOverCrash-Info.plist"; sourceTree = "<group>"; };
 		BE960B2915B3D1380049EB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BE960B2B15B3D1380049EB5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BE960B2D15B3D1380049EB5C /* VoiceOverCrash-Prefix.pch */ = {isa = PBXFileReference; path = "VoiceOverCrash-Prefix.pch"; sourceTree = "<group>"; };
-		BE960B2E15B3D1380049EB5C /* HFAppDelegate.h */ = {isa = PBXFileReference; path = HFAppDelegate.h; sourceTree = "<group>"; };
+		BE960B2D15B3D1380049EB5C /* VoiceOverCrash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceOverCrash-Prefix.pch"; sourceTree = "<group>"; };
+		BE960B2E15B3D1380049EB5C /* HFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFAppDelegate.h; sourceTree = "<group>"; };
 		BE960B2F15B3D1380049EB5C /* HFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFAppDelegate.m; sourceTree = "<group>"; };
 		BE960B3215B3D1380049EB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		BE960B3515B3D1380049EB5C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		BE960B3715B3D1380049EB5C /* HFViewController.h */ = {isa = PBXFileReference; path = HFViewController.h; sourceTree = "<group>"; };
-		BE960B3815B3D1380049EB5C /* HFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFViewController.m; sourceTree = "<group>"; };
+		BE960B3F15B3D1C30049EB5C /* CrashingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashingViewController.h; sourceTree = "<group>"; };
+		BE960B4015B3D1C30049EB5C /* CrashingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +79,12 @@
 		BE960B2515B3D1380049EB5C /* VoiceOverCrash */ = {
 			isa = PBXGroup;
 			children = (
+				BE960B3F15B3D1C30049EB5C /* CrashingViewController.h */,
+				BE960B4015B3D1C30049EB5C /* CrashingViewController.m */,
 				BE960B2E15B3D1380049EB5C /* HFAppDelegate.h */,
 				BE960B2F15B3D1380049EB5C /* HFAppDelegate.m */,
 				BE960B3115B3D1380049EB5C /* MainStoryboard_iPhone.storyboard */,
 				BE960B3415B3D1380049EB5C /* MainStoryboard_iPad.storyboard */,
-				BE960B3715B3D1380049EB5C /* HFViewController.h */,
-				BE960B3815B3D1380049EB5C /* HFViewController.m */,
 				BE960B2615B3D1380049EB5C /* Supporting Files */,
 			);
 			path = VoiceOverCrash;
@@ -168,7 +168,7 @@
 			files = (
 				BE960B2C15B3D1380049EB5C /* main.m in Sources */,
 				BE960B3015B3D1380049EB5C /* HFAppDelegate.m in Sources */,
-				BE960B3915B3D1380049EB5C /* HFViewController.m in Sources */,
+				BE960B4115B3D1C30049EB5C /* CrashingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
